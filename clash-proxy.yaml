@@ -1,0 +1,103 @@
+payload:
+  # Google / YouTube
+  - DOMAIN,accounts.google.com
+  - DOMAIN,accounts.youtube.com
+  - DOMAIN,voice.google.com
+  - DOMAIN,translate.google.cn
+  - DOMAIN-SUFFIX,google.com
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN-KEYWORD,google
+
+  # AI / Dev
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,githubusercontent.com
+  - DOMAIN-SUFFIX,docker.com
+  - DOMAIN-SUFFIX,azureedge.net
+  - DOMAIN-SUFFIX,appspot.com
+
+  # Overseas services
+  - DOMAIN-SUFFIX,discord.com
+  - DOMAIN-SUFFIX,spotify.com
+  - DOMAIN-SUFFIX,paypal.com
+  - DOMAIN-SUFFIX,patreon.com
+  - DOMAIN-SUFFIX,fiverrcdn.com
+  - DOMAIN-SUFFIX,flickr.com
+  - DOMAIN-SUFFIX,evernote.com
+  - DOMAIN-SUFFIX,ifttt.com
+  - DOMAIN-SUFFIX,t.co
+  - DOMAIN-SUFFIX,bit.ly
+
+  # TikTok
+  - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-SUFFIX,tiktokcdn.com
+  - DOMAIN-SUFFIX,tiktokv.com
+  - DOMAIN-SUFFIX,appsflyer.com
+  - DOMAIN-SUFFIX,snapkit.com
+
+  # Amazon / IMDb / CDN
+  - DOMAIN-SUFFIX,amazon.com
+  - DOMAIN-SUFFIX,amazonaws.com
+  - DOMAIN-SUFFIX,cloudfront.net
+  - DOMAIN-SUFFIX,media-amazon.com
+  - DOMAIN-SUFFIX,ssl-images-amazon.com
+  - DOMAIN-SUFFIX,imdb.com
+  - DOMAIN-SUFFIX,imdbws.com
+  - DOMAIN-SUFFIX,media-imdb.com
+
+  # Emby / Media
+  - DOMAIN-SUFFIX,emby.media
+  - DOMAIN-SUFFIX,emb-api.com
+  - DOMAIN-SUFFIX,embydata.com
+  - DOMAIN-SUFFIX,mb3admin.com
+  - DOMAIN-SUFFIX,fanart.tv
+  - DOMAIN-SUFFIX,themoviedb.org
+  - DOMAIN-SUFFIX,thetvdb.com
+  - DOMAIN-SUFFIX,trakt.tv
+  - DOMAIN-KEYWORD,trakt
+
+  # PT / Tracker
+  - DOMAIN,open.stealth.si
+  - DOMAIN,inferno.demonoid.is
+  - DOMAIN,tracker.opentrackr.org
+  - DOMAIN,tracker.torrent.eu.org
+  - DOMAIN,tracker.tiny-vps.com
+  - DOMAIN-SUFFIX,open.cd
+  - DOMAIN-SUFFIX,torrentleech.org
+  - DOMAIN-SUFFIX,hdzone.me
+  - DOMAIN-SUFFIX,asiandvdclub.org
+  - DOMAIN-SUFFIX,ptchina.org
+  - DOMAIN-SUFFIX,hdarea.co
+  - DOMAIN-SUFFIX,discfan.net
+  - DOMAIN-SUFFIX,hdatmos.club
+  - DOMAIN-SUFFIX,reelflix.xyz
+  - DOMAIN-SUFFIX,greatposterwall.com
+  - DOMAIN-SUFFIX,piggo.me
+  - DOMAIN-SUFFIX,hdpt.xyz
+  - DOMAIN-SUFFIX,carpt.net
+  - DOMAIN-SUFFIX,hdfans.org
+  - DOMAIN-SUFFIX,dmhy.org
+  - DOMAIN-SUFFIX,acg.rip
+  - DOMAIN-SUFFIX,soulvoice.club
+  - DOMAIN-SUFFIX,ptcafe.club
+
+  # Geo / Tools
+  - DOMAIN-SUFFIX,maxmind.com
+  - DOMAIN,geolite.clash.dev
+  - DOMAIN-SUFFIX,digcert.com
+  - DOMAIN-SUFFIX,speedtest.net
+  - DOMAIN-SUFFIX,ipdata.co
+
+  # Games / Steam
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,brawlstars.com
+  - DOMAIN-SUFFIX,brawlstarsgame.com
+  - DOMAIN-SUFFIX,supercell.com
