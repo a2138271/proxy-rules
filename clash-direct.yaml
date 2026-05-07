@@ -1,0 +1,82 @@
+payload:
+  # 微信 / 国内
+  - DOMAIN-SUFFIX,qq.com
+  - DOMAIN-SUFFIX,wechat.com
+  - DOMAIN-SUFFIX,weixinbridge.com
+  - DOMAIN-SUFFIX,url.cn
+  - DOMAIN-SUFFIX,servicewechat.com
+  - DOMAIN-SUFFIX,tencentcloudapi.com
+  - DOMAIN-SUFFIX,taobao.com
+  - DOMAIN-SUFFIX,zhihu.com
+  - DOMAIN-SUFFIX,zhimg.com
+  - DOMAIN-SUFFIX,doubanio.com
+  - DOMAIN-SUFFIX,127.net
+  - DOMAIN-SUFFIX,mmstat.com
+
+  # 抖音 / 今日头条
+  - DOMAIN-SUFFIX,snssdk.com
+  - DOMAIN-SUFFIX,ixigua.com
+  - DOMAIN-SUFFIX,pstatp.com
+  - DOMAIN-SUFFIX,ixiguavideo.com
+  - DOMAIN-SUFFIX,amemv.com
+  - DOMAIN-SUFFIX,toutiao.com
+
+  # 银行
+  - DOMAIN-SUFFIX,hsbc.com.hk
+  - DOMAIN-SUFFIX,hsbc.com
+  - DOMAIN-SUFFIX,hsbcnet.com
+  - DOMAIN-SUFFIX,hangseng.com
+  - DOMAIN-KEYWORD,hsbc
+  - DOMAIN-SUFFIX,icbc.com.cn
+  - DOMAIN-KEYWORD,icbc
+  - DOMAIN-SUFFIX,ccb.com
+  - DOMAIN-KEYWORD,ccb
+  - DOMAIN-SUFFIX,abchina.com
+  - DOMAIN-KEYWORD,abchina
+  - DOMAIN-SUFFIX,boc.cn
+  - DOMAIN-KEYWORD,boc
+  - DOMAIN-SUFFIX,bocom.cn
+  - DOMAIN-KEYWORD,bocom
+  - DOMAIN-SUFFIX,psbc.com
+  - DOMAIN-KEYWORD,psbc
+
+  # Notion / Canva
+  - DOMAIN-SUFFIX,notion.so
+  - DOMAIN-SUFFIX,notion-static.com
+  - DOMAIN-KEYWORD,notion
+  - DOMAIN-SUFFIX,canva.cn
+  - DOMAIN-SUFFIX,canva.com.cn
+  - DOMAIN-KEYWORD,canva
+
+  # PlayStation / Sony
+  - DOMAIN-SUFFIX,playstation.com
+  - DOMAIN-SUFFIX,playstation.net
+  - DOMAIN-SUFFIX,playstationnetwork.com
+  - DOMAIN-SUFFIX,sony.com
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+  - DOMAIN-KEYWORD,playstation
+  - DOMAIN-KEYWORD,sony
+
+  # Xbox / Microsoft 游戏
+  - DOMAIN-KEYWORD,xboxlive
+  - DOMAIN-KEYWORD,xbox
+  - DOMAIN-KEYWORD,xboxservices
+  - DOMAIN-SUFFIX,xboxlive.com
+  - DOMAIN-SUFFIX,xbox-live.com
+
+  # Steam CDN / 游戏下载
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-SUFFIX,ea.com
+  - DOMAIN-SUFFIX,tnt-ea.com
+  - DOMAIN-SUFFIX,nvidia.com
+  - DOMAIN-SUFFIX,ubi.com
+
+  # 远程 / NAS / 下载
+  - DOMAIN-KEYWORD,todesk
+  - DOMAIN-KEYWORD,oray
+  - DOMAIN-KEYWORD,pikpak
+  - PROCESS-NAME,transmission-daemon
+  - PROCESS-NAME,transmission
+  - PROCESS-NAME,baidunetdisk
+  - PROCESS-NAME,uuplugin
