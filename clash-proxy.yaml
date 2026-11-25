@@ -15,7 +15,6 @@ payload:
   - DOMAIN-KEYWORD,google
 
   # AI / Dev
-  - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,github.com
@@ -101,11 +100,59 @@ payload:
   - DOMAIN-SUFFIX,brawlstars.com
   - DOMAIN-SUFFIX,brawlstarsgame.com
   - DOMAIN-SUFFIX,supercell.com
-  
-  # ChatGPT
-  - DOMAIN-SUFFIX,chatgpt.com,PROXY  # ChatGPT 与 Codex WebSocket
-  - DOMAIN-SUFFIX,openai.com,PROXY  # OpenAI 服务
-  - DOMAIN-SUFFIX,auth.openai.com,PROXY  # OpenAI 登录认证
-  - DOMAIN-SUFFIX,oaistatic.com,PROXY  # OpenAI 静态资源
-  - DOMAIN-SUFFIX,oaiusercontent.com,PROXY  # OpenAI 用户内容与文件
-  - DOMAIN-SUFFIX,oaistatsig.com,PROXY  # OpenAI 配置与功能服务
+  - SRC-IP-CIDR,37.120.179.249/32
+  - DOMAIN-SUFFIX,originpc.com
+  - DOMAIN-SUFFIX,amazon.cn
+  - DOMAIN-SUFFIX,forter.com
+  - DOMAIN-SUFFIX,cookielaw.org
+  - DOMAIN-SUFFIX,licdn.com
+  - DOMAIN-SUFFIX,amplitude.com
+  - DOMAIN-SUFFIX,groupon.com
+  - DOMAIN-SUFFIX,hbo.com
+  - DOMAIN-SUFFIX,nychinaren.com
+  - DOMAIN-SUFFIX,textme-app.com
+  - DOMAIN-SUFFIX,textnow.me
+  - DOMAIN-SUFFIX,textfree
+  - DOMAIN-SUFFIX,oath.com
+  - DOMAIN-SUFFIX,akamai.net
+  - DOMAIN-SUFFIX,akamaiedge.net
+  - DOMAIN-SUFFIX,sportscult-announce.org
+  - DOMAIN-SUFFIX,scorecardresearch.com
+  - DOMAIN-SUFFIX,voachinese.com
+  - DOMAIN-SUFFIX,computop-paygate.com
+  - DOMAIN-SUFFIX,tinyurl.is
+  - DOMAIN-SUFFIX,thexem.info
+  - DOMAIN-SUFFIX,unblockit.asia
+  - DOMAIN-SUFFIX,cpu-monkey.com
+  - DOMAIN-SUFFIX,pkgs.org
+  - DOMAIN-SUFFIX,okaypay.online
+  - DOMAIN-SUFFIX,v2ex.com
+  - DOMAIN-SUFFIX,newtontanrec.casa
+  - DOMAIN-SUFFIX,torrentfunk.com
+  - DOMAIN-SUFFIX,ipv6scanner.com
+  - DOMAIN-SUFFIX,torrentz2beta.asia
+  - DOMAIN-SUFFIX,jasonsavard.com
+  - DOMAIN-SUFFIX,gameloft.com
+  - DOMAIN-SUFFIX,cathode-ray.tube
+  - DOMAIN-SUFFIX,highbrookmedical.co.nz
+  - DOMAIN-SUFFIX,ifixit.com
+  - DOMAIN-SUFFIX,91porn.com
+  - DOMAIN-SUFFIX,nyt.com
+  - DOMAIN-SUFFIX,nyti.ms
+  - DOMAIN-SUFFIX,rollingddns.xyz
+  - DOMAIN-SUFFIX,91porny.com
+  - DOMAIN-SUFFIX,yougetsignal.com
+  - DOMAIN-SUFFIX,emby.wtf
+  - DOMAIN-SUFFIX,torrentdownload
+  - DOMAIN-SUFFIX,sytes.net
+  - DOMAIN-SUFFIX,ACG.RIP
+  - DOMAIN-SUFFIX,deezer.com
+  - DOMAIN-SUFFIX,880660.xyz
+  - DOMAIN,emby.ytoo.li
+  - DOMAIN,i.p04.space
+  - DOMAIN,microsofcopilot.microsoft.com
+  - DOMAIN-KEYWORD,paypal
+  - IP-CIDR,144.76.203.211/32
+  - IP-CIDR,52.184.28.138/32
+  - IP-CIDR,195.13.182.213/24
+  - IP-CIDR,198.135.51.22/24

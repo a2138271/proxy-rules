@@ -1,0 +1,10 @@
+payload:
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,oaistatsig.com
+  - DOMAIN-SUFFIX,openaimerge.com
+  - DOMAIN-SUFFIX,workos.com
+  - DOMAIN-SUFFIX,workoscdn.com
+  - DOMAIN,challenges.cloudflare.com

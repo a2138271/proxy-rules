@@ -1,0 +1,26 @@
+rule-providers:
+  openai:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/a2138271/proxy-rules/main/clash-openai.yaml
+    path: ./rule_provider/shared-openai.yaml
+    interval: 3600
+  proxy:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/a2138271/proxy-rules/main/clash-proxy.yaml
+    path: ./rule_provider/shared-proxy.yaml
+    interval: 3600
+  direct:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/a2138271/proxy-rules/main/clash-direct.yaml
+    path: ./rule_provider/shared-direct.yaml
+    interval: 3600
+rules:
+- RULE-SET,openai,🤖 OpenAI
+- RULE-SET,proxy,迷人的桃子
+- RULE-SET,direct,DIRECT
