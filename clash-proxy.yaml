@@ -156,3 +156,5 @@ payload:
   - IP-CIDR,52.184.28.138/32
   - IP-CIDR,195.13.182.213/24
   - IP-CIDR,198.135.51.22/24
+  - DOMAIN-SUFFIX,escapefromtarkov.com
+  - DOMAIN,www.flaticon.com
