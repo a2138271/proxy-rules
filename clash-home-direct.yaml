@@ -1,0 +1,3 @@
+payload:
+  # 家用 PS5
+  - SRC-IP-CIDR,192.168.0.220/32
